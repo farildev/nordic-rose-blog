@@ -1,1 +1,1 @@
-{"mappings":"","sources":["src/scripts/main.js"],"sourcesContent":[null],"names":[],"version":3,"file":"index.f75de5e1.js.map","sourceRoot":"/__parcel_source_root/"}
+{"mappings":"AAAA,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,CAAC","sources":["src/scripts/main.js"],"sourcesContent":["console.log('Salam');"],"names":[],"version":3,"file":"index.f75de5e1.js.map","sourceRoot":"/__parcel_source_root/"}

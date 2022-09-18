@@ -1,10 +1,57 @@
-body {
-  height: 100%;
-  background-color: red;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h2 {
-  color: #ff0;
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+._container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+body, html {
+  height: 100%;
+  font-family: Poppins, sans-serif;
+}
+
+header {
+  background-color: #1c1c1c;
+  padding: .5rem;
+}
+
+header .navbar {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+header .navbar .logo {
+  width: 50px;
+}
+
+header .navbar .nav__list {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+header .navbar .nav__list .nav__item {
+  margin: 0 20px;
+}
+
+header .navbar .nav__list .nav__item .nav__link {
+  color: #fff;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=index.e8265c92.css.map */
