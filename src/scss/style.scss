@@ -1,0 +1,9 @@
+$background: yellow;
+ body{
+    height: 100%;
+    background-color: red;
+ }
+
+ h2{
+    color: $background;
+ }

@@ -1,0 +1,1 @@
+{"mappings":"AACC;;;;;AAKA","sources":["src/scss/style.scss"],"sourcesContent":["$background: yellow;\r\n body{\r\n    height: 100%;\r\n    background-color: red;\r\n }\r\n\r\n h2{\r\n    color: $background;\r\n }"],"names":[],"version":3,"file":"index.e8265c92.css.map","sourceRoot":"/__parcel_source_root/"}
