@@ -1,0 +1,23 @@
+{
+  "name": "parcel-packet",
+  "version": "1.0.0",
+  "description": "Parcel packet for web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farildev/Parcel-PACKET.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farildev/Parcel-PACKET/issues"
+  },
+  "homepage": "https://github.com/farildev/Parcel-PACKET#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
