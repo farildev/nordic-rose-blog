@@ -2,9 +2,9 @@
   "name": "parcel-packet",
   "version": "1.0.0",
   "description": "Parcel packet for web development",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/*.html --no-source-maps"
   },
   "repository": {
     "type": "git",
