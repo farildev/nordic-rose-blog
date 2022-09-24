@@ -41,6 +41,7 @@ html{
     transition: 300ms all ease-in-out;
     border-bottom: 1px solid #000;
     &.is-active{
+        transition: 300ms all;
         top: 0;
         left: 0;
         width: 50%;

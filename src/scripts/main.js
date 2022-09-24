@@ -1,4 +1,3 @@
-const blogSection = document.querySelector('.blogs__content');
 const menuOpen = document.getElementById('menu-btn');
 const menuClose = document.querySelector('.close-btn');
 const navMenu = document.querySelector('.nav__menu')
@@ -14,18 +13,15 @@ menuClose.addEventListener('click', function() {
 })
 
 
-
-
-
 function getData() {
     let api = `http://localhost:5000/api/blog`;
     fetch(api)
     .then (response => response.json())
     .then (data => {
-        let result = "";
-        if(data[0].Id){
-            data.array.forEach(array => {
-                result += `
+        let blogSection = document.querySelector('.blogs__content');
+        if(data){
+            data.forEach( () => {
+                blogSection += `
                 <div class="blog__zone">
                 <img src="./img/${data.image}" alt="">
                 <p>${data.name}</p>
@@ -35,3 +31,4 @@ function getData() {
         }
     })
 }
+getData();
