@@ -1,2 +1,1 @@
-# Parcel-PACKET
- Parcel packet for web development
+Nordic Rose Blog App
