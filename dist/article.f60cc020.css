@@ -34,6 +34,10 @@
   margin-top: 52px;
 }
 
+.article__section .article__img img {
+  width: 100%;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -49,7 +53,7 @@ li {
 }
 
 .container {
-  max-width: 858px;
+  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   padding: 0 40px;
@@ -225,6 +229,7 @@ main .listing__section p {
 }
 
 main .blogs__section {
+  max-width: 868px;
   margin-top: 98px;
 }
 
