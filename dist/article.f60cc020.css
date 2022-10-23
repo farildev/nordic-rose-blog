@@ -211,19 +211,20 @@ main .blogs__section .blogs__content {
   display: flex;
 }
 
-main .blogs__section .blogs__content .blog__zone {
+main .blogs__section .blogs__content a .blog__zone {
   max-width: 304px;
   margin-top: 64px;
 }
 
-main .blogs__section .blogs__content .blog__zone img {
+main .blogs__section .blogs__content a .blog__zone img {
   max-width: 304px;
   object-fit: center;
 }
 
-main .blogs__section .blogs__content .blog__zone p {
+main .blogs__section .blogs__content a .blog__zone p {
   text-align: center;
   letter-spacing: .5px;
+  color: #000;
   margin-top: 20px;
   font-family: sans-serif;
   font-size: 22px;

@@ -190,21 +190,23 @@ main{
             justify-content: space-around;
             align-items: center;
             flex-wrap: wrap;
-            .blog__zone{
-                max-width: 304px;
-                margin-top: 64px;
-                img{
-                    max-width: 304;
-                    object-fit: center;
-                }
-                p{
-                    text-align: center;
-                    font-weight: 500;
-                    font-size: 22px;
-                    font-family: sans-serif;
-                    font-weight: 400;
-                    letter-spacing: 0.5px;
-                    margin-top: 20px;
+            a{
+                .blog__zone{
+                    max-width: 304px;
+                    margin-top: 64px;
+                    img{
+                        max-width: 304px;
+                        object-fit: center;
+                    }
+                    p{
+                        text-align: center;
+                        font-size: 22px;
+                        font-family: sans-serif;
+                        font-weight: 400;
+                        letter-spacing: 0.5px;
+                        margin-top: 20px;
+                        color: black;
+                    }
                 }
             }
         }
