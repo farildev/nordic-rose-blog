@@ -1,0 +1,32 @@
+
+.article__section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .article__header{
+    h2{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 54px;
+      line-height: 100%;
+      text-align: center;
+      color: #000000;
+    }
+  }
+  .article__description{
+    margin-top: 32px;
+    max-width: 626px;
+    p{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 170%;
+      text-align: center;
+      color: #000000;
+    }
+  }
+  .article__img{
+    margin-top: 52px;
+    width: 100%;
+  }
+}
