@@ -159,6 +159,14 @@ main{
           img{
             width: 100%;
           }
+          .img__alt{
+            margin-top: 12px;
+            max-width: 481px;
+            width: 100%;
+            p{
+              font-family: 'Poppins',sans-serif;
+            }
+          }
         }
       }
     }

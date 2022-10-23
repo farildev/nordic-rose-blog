@@ -173,6 +173,16 @@ main .news__section .news__wrapper .news__timeline .news__img img {
   width: 100%;
 }
 
+main .news__section .news__wrapper .news__timeline .news__img .img__alt {
+  max-width: 481px;
+  width: 100%;
+  margin-top: 12px;
+}
+
+main .news__section .news__wrapper .news__timeline .news__img .img__alt p {
+  font-family: Poppins, sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
