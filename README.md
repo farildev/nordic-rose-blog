@@ -1,1 +1,1 @@
-<h1>Nordic Rose App</h1>
+<h1>Nordic Rose App with Parcel Bundler</h1>
